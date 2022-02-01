@@ -1,0 +1,169 @@
+
+ 
+ 
+ body {        
+    padding-top: 60px;
+    padding-bottom: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: proxima-nova, sans-serif;
+}
+
+
+
+header, footer {
+    position: absolute;
+    overflow: hidden;
+    background-color: #8b0015;
+    width: 100%; 
+    
+  }
+
+header {
+    top: 0;
+}
+
+
+header a {
+    float: left;
+    display: block;
+    padding: 10px 16px;
+    text-decoration: none;
+    }
+  
+
+
+#logos-container {
+    height: 160px;
+    padding: 10px;
+    
+}
+text {
+    float:right;
+    display: block;
+    padding: 10px 16px;
+    color:rgb(114, 111, 111);
+}
+
+img {
+    max-width: 100%;
+    margin: auto;
+    padding: 10px
+}
+
+#hero-image {
+    background-image: url('images/uacampus.png');
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+}
+
+#hero-block {
+
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(24, 25, 94);
+    opacity: 85%;
+    color: white;
+    padding: 3em;
+    padding-bottom: 5em;
+    font-family: proxima-nova, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+
+ 
+}
+
+#purpose-box {
+    font-family: proxima-nova, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    width: 80%;
+    margin: auto;
+
+}
+
+#hub-box {
+    display: inline-block;
+    margin: 0;
+    padding: 25px;
+    background:midnightblue;
+    color: white;
+    font-family: proxima-nova, sans-serif;
+    font-size: 20px;
+}
+#grid-container {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-gap: 25px;
+    align-items: center;
+    align-content: center;
+    margin: 50px 0 0 50px;
+    justify-items: center;
+    
+}
+
+
+.box {
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 28, 72);
+    margin-bottom: 2em;
+    padding: 5px 10px;
+    font-family: proxima-nova, sans-serif;
+    
+ 
+   
+}
+
+.box img{
+    padding: 0;
+}
+
+button {
+    color: #ffffff;
+    background-color: rgb(139, 0, 21);
+    border: 0;
+    border-radius: 0;
+    font-family: system-ui, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: .16em;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+
+}
+#footer {
+    position: inherit;
+    bottom: 0;
+    padding: 40px;
+    color: #49595e;
+    overflow: hidden;
+    background-color:rgb(244, 237, 229);
+    width: 100%; 
+} 
+
+footer a {
+  
+    display: block;
+    color: #49595e;
+    width: 80%;
+    text-align: center;
+    padding-top: 20px;
+     
+}
+
+footer .container {
+    width: 80%;
+    margin: 0 auto; 
+     
+}
